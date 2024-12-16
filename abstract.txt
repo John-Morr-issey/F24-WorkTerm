@@ -14,10 +14,13 @@ Introduction
 - Should be incredibly short (2-3 sentences)
 - Needs Name, student year, length of term/dates, job title, and a lead in to the website
 
+Current Draft
+
 Welcome to my CO-OP Work Term Report regarding my Fall 2024 placement. My name is John Morrissey, a third year student
 Computer Science Co-op student at the University of Guelph. Over the last four months I have had the priviledge of
-working at TradeMark Industrial Inc. 
+working at TradeMark Industrial Inc. in the role of 'IT Co-op Student'. This website will detail my position and duties,
+the goals I accomplished, and the knowledge I gained during my placement.
 
-Current Draft
+
 
 
