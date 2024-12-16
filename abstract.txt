@@ -2,3 +2,5 @@ Introduce the reader to your work by telling them what you hope they will take a
 from the website. Make this short and to the point. When did you work, where, what did
 you do.
 
+- Should be incredibly short (2-3 sentences)
+- Needs Name, student year, length of term, job title, and a lead in to the website
