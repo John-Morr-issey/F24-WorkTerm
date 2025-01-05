@@ -23,7 +23,7 @@ What skills did you want to learn?
 . Commmunication
 
 What Technologies did you want to work with and why?
-. Coding Languages: HTML, JS, CSS
+. Coding Languages: PHP, JS, CSS
 . 
 
 
@@ -47,4 +47,50 @@ allowed me to greatly improve my sense of communication and confidence within my
 
 Goal 2: 
 
+My second goal consisted of improving my creativity of problem solving within coding projects. During the course of my term I was frequently given tasks to 
+implement or itterate upon across various software projects. These varied in size and difficulty with certain assignments spanning across a multitude of weeks, I
+realized early on that I would need to hone in on my creative ability and out of the box style thinking to properly achieve my goals on time. Over the span of my term 
+as I became more comfortable within the enviorment and the technologies used, it became significantly easier to establish creative practices and I found myself finishing
+projects at a much faster rate, often being able to come up with a solution fairly quickly and then spending time on implementation. Achieving this goal felt incredibly rewarding
+and my inherent skill as a programer has developed greatly as a result.
 
+Goal 3:
+
+My third goal was to improve my time management skills, and ensure that I never miss a deadline during the span of my term. This was a very personal goal as time management has
+always been a difficult skill for me to develop, I wanted to get every single task done in a timely manner and never have something run late. At the start of my workterm, I made it
+a habit to check in with myself on any active projects every single day. Doing this allowed me to see what was most urgent to get done, how close a project was to being finished, and what
+parts of a project needed attention. Through implementing this system, I never had any issue regarding the completion of a task and frequently got things done ahead of schedule. This allowed me
+to improve my time management skills, and provided me with extra time to enhance ongoing work and less urgent matters.
+
+Goal 4:
+
+My fourth goal was to improve my question and inquiry skills and ensure that during my work term I was learning to my maximum potential. At the start of my work term, I frequently shadowed my
+co-workers during a variety of IT complications and how they were able to resolve them. My goal quickly shifted to be focused on how I could use these oppertunities to learn through questions and
+develop my ability to inquire about what was transpiring so that I was constantly learning and absorbing knowledge. Whenever I was alongside someone to assist an employee, I asked consistent questions
+and asked for extra explanation if at any point I didn't understand what was occuring. As time went on and familair situations began to show up, I was able to ask less and less questions and focus more
+on the immediate task at hand, repeat explanations allowed me to test my knowledge and gave me a chance to ask more indepth and obscure questions that I didn't have the time for at first. My knowledge
+quickly grew and I found my questions being more meaningful as time went on, this allowed me to feel increasingly confident in helping employees on my own and in my own inquiry skills.
+
+Goal 5:
+
+My fifth goal was to gain increased profeciency within web development to the point where I would be able to create my own website. At the start of my work term I had very little experience in web development, 
+it was incredibly daunting to be given web development based tasks and see what the previous co-op students before me had worked upon. I made it a goal to become fluent in web development so I could achieve
+the best possible results during my work term and for my ongoing career. I spent a lot of time reading documentation on the coding languages I would be using and through the exisiting software and studied it 
+until I was able to understand everything present and could easily read the current implementations. Once I had the required knowledgebase, I began to work on impelementing new features I was tasked to build
+my web skillset in both front-end and back-end enviornments. As time went on and I began working on more complex features, working on web development became increasingly easier to accomplish and creating 
+the work term report website felt like second nature.
+
+Technologies:
+
+Some Technologies I worked with:
+
+Coding Languages:
+
+PHP, JS, CSS 
+Made up the basis of both the back-end and front-end of my web development
+
+Bootstrap5:
+Front end framework that further enhanced any web based software 
+
+JQuery:
+A DOM manipulation library that provided invaluable tools to help create a reactive webpage
