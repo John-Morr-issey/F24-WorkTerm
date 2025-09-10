@@ -1,1 +1,276 @@
-
+<!DOCTYPE html>
+<html>
+  <!-- Start of Header -->
+  <head>
+    <title> Summer 2025 Work Term 2 Co-op report </title>
+    <meta charset="UTF-8">
+    <meta name="author" content="John Morrissey">
+    <script src = "Scripts.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles.css">
+  </head>
+  <!-- Start of Body -->
+  <body>
+    <div class="container-fluid" id="TopHeader">
+      <div class="row">
+        <div class="col">
+          <h1 id="MainTitle">Work Term S25</h1>
+        </div>
+        <div class="col">
+          <h2>University of Guelph, Student Housing Services : Student Application Support Specialist</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="Main-Container" style="text-align: center;">
+      <div class="row">
+        <!--Start of Row-->
+        <div class="col-sm-12" style="padding: 15px"></div>
+        <div class="col-sm-12">
+          <h3 style="text-align: center;">CO-OP*2000 S25 WORK TERM REPORT </h3>
+        </div>
+        <div class="col-sm-12" style="padding: 30px;"></div>
+        <div class="col" style="padding: 10px 150px;">
+          <h5>Welcome to my CO-OP Work Term Report regarding my Summer 2025 placement. My name is John Morrissey, a fourth year Computer Science Co-op student at the University of Guelph. During the S25 semester, I had the priviledge of working within the University at the Student Housing Department as a Student Application Support Specialist. This website will detail the projects I contributed to, the experience and information I gained during the term, and the goals I strived towards.</h5>
+        </div>
+        <!--End of INTRO-->
+      </div>
+      <!-- Start of ABOUT -->
+      <div class="row">
+        <div class="col-sm-12" style="padding: 30px;"></div>
+        <div class="col-sm-12" style="padding: 25px, 0px;">
+          <h3> ABOUT THE UNIVERSITY OF GUELPH</h3>
+        </div>
+        <div class="col-sm-12" style="padding: 30px;"></div>
+        <div class = "col-sm-4">
+          <!--Insert University of Guelph Logo-->
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-6">
+          <p class="pA">Established in 1964, the University of Guelph stands today as one of the top institutions in Canada offering a breadth of degrees across eight different colleges. With roots stemming back
+          to 1874 and originally operating as an agriculture based school, the University of Guelph has spent over 150 years educating and developing the next generation with their mission to improve life. As it stands today,
+          the university has 29,507 undergraduate and graduate students, and over 185,000 alumni from 160+ different countries across the globe.</p>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-12" style="padding: 30px;"></div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4">
+          <!--Insert image here-->
+        </div>
+        <div class="col-sm-6">
+          <p class="pA" style="padding-top: 60px;">
+            The University of Guelph features a multitude of services dedicated to assisting and supporting students. My co-op took place within the Student Housing Services department, more specifically within the South Residence Maritime Hall office. Their main goal is to provide helpful resources to students living in residence during both the application process and existing needs throughout the school year overseeing all 16 on campus residence communities.
+            I was employed during the summer, where the focus of the department revolves around organizing new students coming into residence for the fall semester, across 5200+ beds and accomadating a plethora of requests within the residence lottery system.
+          </p>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-12" style="padding: 30px;"></div>
+        <!--End of ABOUT-->
+      </div>
+      <!--Start of GOALS-->
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+           <h3 style="text-align: center;"> TERM GOALS </h3>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-12" style="padding: 30px;"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <h5 style="text-align: center;">Before my work term started, I set three goals to accomplish over the duration of my time working within the Student Housing Services department. With this work term being
+          my second, I wanted to set goals that felt meaningful towards the work I would be doing. They acted as the cornerstones of my work and drove me to strive for better habits and efficeny to maximize what I gained and accomplished within this oppertunity.</h5>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-12" style="padding: 30px;"></div>
+        <div class="col-sm-2" style="background-color: mediumturquoise;">
+          <h2 style="margin: auto; width: 50%;">Goal 1: Learn something to improve as a developer.</h2>
+        </div>
+        <div class="col-sm-10" style="background-color: lightseagreen;">
+          <p class="pA" >My first goal consisted of learning something new in regards to the development process that can be carried over into future endeavours. Co-op provides the unique oppertunity to work on projects in a different manner than those provided in classwork.
+          While there is overlap in how they are tackled in terms of guidelines and deadlines, working without any semblance of grading or rubric means that you need to set your own standards of completion and effectiveness. 
+          The project that took the majority of my time during the term revolved around an algorithim running simulations to find the best possible outcome. Whilst I was given no benchmark for it's performance, I realized quickly that taking an 
+          entire minute to run 100,000 seeds was horribly inefficent and that I lacked the knowledge on how properly speed things up. This lead me down a path of heavy research into optimization in C, using Callgrind to 
+          find where slowdown was occuring and what resource management needed attention. It was only through co-op that I was given the perfect chance to learn more about optimization tools and techniques, utilizing compiler options such as -Ofast and having to ensure it's optimizations did not cause complications.
+          Even seemingly inconsequential lines of code that I would never once think to check were changed to maximize speed as much as possible. The 100,000 simulations that once took a minute to run now take a little over a second. 
+          Whilst speed is not everything it was a vital part of my skills as a developer that was inherently lacking, and watching as the time my program took slowly came down to become a mere fraction of it's original runtime has
+          helped my ability to work towards greater efficeny for my future work.</p>
+        </div>
+        <div class="col-sm-2" style="background-color: lightseagreen;">
+          <h2 style="margin: auto; width: 50%;">Goal 2: Leave a mark.</h2>
+        </div>
+        <div class="col-sm-10" style="background-color: mediumturquoise;">
+          <p class="pA" >As a co-op student your time within your role is incredibly limited and puts a clamp on what you are able to realistically achieve. Four months can be done before you've fully managed to
+          get your feet wet and especially as a developer the start-up time on some projects can be costly to your total alloted timeframe. My goal going into this four terms was to have something done, no matter how big or small, that would cement my time working there for years to come.
+          This would end up being my very first major assignment during my term, which was creating 3D virtual tours of the residences using a Matterport 360 Camera. This required me and various colleagues to go across campus
+          to different residences and repeatedly set the camera up to record the surrounding area as it began to map out a 3D model of the residence. Whilst it's not the work I first thought I would be doing, it's importance could not be understated. 
+          These virtual tours which now exist on the university housing website allow for incoming students to view what their room looks like, measure spaces using the online tools provided and get an idea of what the building they will call home for the next 8 months resembles.
+          This for me culminated when after a shift I was randomly approached by a family and asked about the rooms featured in residence, and I was able to provide them with insurance of how accurate the online virtual tours were and information on how to find their room type online since they had missed the in-person tours for the day.
+          These are vital resources that while seeming small on the surface is an immense support for new students. It's worth noting that I physically appear within these virtual tours if you know where to look. 
+          In the West Village Three Bedroom Appartment tour if you step outside of the building a very blurry image of my back is visible. In Prarie Hall my shoe is visible right by the main desk in one specific angle.
+            
+          All of these are incredibly minor, but to ensure no doubt that this is me, there exists an extremely clear image of my entire body from the back within the tour of East Residence Dundas-Suite 1.4 where if you look at unit 5 from the washroom I am in plain view.</p>
+        </div>
+        <div class="col-sm-2" style="background-color: mediumturquoise;">
+          <h2 style="margin: auto; width: 50%;">Goal 3: Make something to be proud of.</h2>
+        </div>
+        <div class="col-sm-10" style="background-color: lightseagreen;">
+          <p class="pA" >My most important goal for this term was to be able to finish a project that I felt was worth talking about. Whilst every project done is important in it's own right I wanted something that could 
+          be brought up in conversation and carry some sort of weight to it. Even if my two other goals fell flat, this was something that mattered to me from day one to accomplish. This project is the same as detailed in goal 1,
+          an algorithim that was designed to map out the move-in times for students across every residence in two days as effectively as possible. I knew right as I started working on it that this would be my project to be proud of. 
+          This became the hardest and most dedicated I have ever worked on one single file, spanning 1500 lines of code to create a comprehensive sorting system that would find the most idealized way to handle moving in 5200+ students 
+          into their new home. Every day there was something to be done, wether that be speeding up the runtime, fixing rare edge cases, adding new constraints to increase output efficeny, I worked harder than I ever have to
+          make this project something that I could put onto a resume and feel proud to have it there. The amount of time and consideration required to ensure the algorithim was optimized was far greater than I expected, but the inherent reward
+          to watch it improve week after week until it was done was a rare but gracious experience. Ultimately, it stands as one of the most cherished projects I have ever worked on, and it only became that because I dedicated myself to completing this goal.</p>
+        </div>
+        <!--End of GOALS-->
+      </div>
+      <!--Start of Technologies-->
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>TECHNOLOGIES I WORKED WITH</h3>
+        </div>
+        <div class="col-sm-12" style="padding: 30px;"></div>
+        <div class="col-sm-3">
+          <!--Insert image of C-->
+        </div>
+        <div class="col-sm-3">
+          <!--Insert image of C#-->
+        </div>
+        <div class="col-sm-6">
+          <div class="col">
+            <h4>Coding Languages</h4>
+          </div>
+          <div class="col">
+            <p class="pA">C was the primary language I used for my main project during the bulk of my work term, whilst C# was used in the final month to create an internal web application.</p>
+          </div>
+          <div class="col-sm-12" style="padding: 30px;"></div>
+        <div class="col-sm-2">
+          <!--Insert image of .Net-->
+        </div>
+        <div class="col-sm-2">
+          <div class="col">
+            <h4>.Net</h4>
+          </div>
+          <div class="col">
+            <p class="pA">A versetile platform built from the .Net framework for building and executing web services.</p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img src="images/bootstrap-logo-shadow.png" alt="Bootstrap5 Logo" style="width:200px;height:200px;">
+        </div>
+        <div class="col-sm-2">
+           <div class="col">
+            <h4>Bootstrap 5</h4>
+          </div>
+          <div class="col">
+            <p class="pA">Front end framework that further enhanced any web based software </p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img src="images/code-stable.png" alt="VS Code Logo" style="width:200px;height:200px;">
+        </div>
+        <div class="col-sm-2">
+           <div class="col">
+            <h4>VS Code</h4>
+          </div>
+          <div class="col">
+            <p class="pA">The development enviornment I utilized to write code</p>
+          </div>
+        </div>
+        <div class="col-sm-12" style="padding: 30px;"></div>
+          <!--End of Technologies-->
+      </div>
+      <!--START of JOB DESCRIPTION-->
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>JOB DESCRIPTION</h3>
+        </div>
+        <div class="col-sm-12" style="padding: 10px;"></div>
+        <div class="col-sm-2"></div>
+        <div class = "col-sm-8">
+        <p class="pA" style="padding: 50px;">During my time within Student Housing Services, my time was divided between three main projects. The first of these was using a Matterport Pro camera within
+        the various residences across campus to create 3D virtual tours of rooms and units for incoming students to access online. This required myself and my colleagues to travel throughout campus and 
+        set up the camera, using the Matterport software to scan the building in 5 feet increments and ensuring that nothing went wrong in the recording process. Once the scans were complete, they could be
+        uploaded and placed onto the University Housing website to give students an interactive look at any and all room types.</p>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-2">
+          <!--Insert Image of me on matterport-->
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2">
+          <!--Insert Image of me on matterport-->
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2">
+          <!--Insert Image of me on matterport-->
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-12" style="padding: 10px;"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+        <p class="pA" style="padding: 50px;">The bulk of my term was spent developing an algorithim to assign move-in times to residence rooms to optimally spread out student move in across two days. The goal
+        was to ensure that move-in went as smoothly as possible by delegating when certain residence areas would be moving in and how many rooms would be moved into for each half hour time slot spanning from
+        8:30 AM to 3:30 PM. This required an excess amount of time taken to first scope out how to optimally divide the 70 different move-in groups across the two days and giving each group a number to represent
+        it's location on campus with the closer two groups numbers being the closer together on campus they were. Once a generalized algorithim was derived to map out how many rooms should be moved into for 
+        each half hour interval, fractions of groups were placed into a time slot until every single room was provided with a time. Once the sorting was complete, a score was assigned based on the efficeny of the
+        distribution of the current seed the algorithim used to sort. After enough simulations the best of these seeds or the 'lowest' score would be used to output a csv file detailing when every individual bed would
+        move into residence. Whilst for time convience only ten million seeds would be checked at once, I allowed the algorithim to run for every possible seed C would recognize for the srand function (0 to 4294967295)
+        and found that Friday had two seeds equate to a best score of 110, and Saturday had a single seed that equated to 156. Whilst these numbers appear trivial, their one in a billion nature cannot be understated.</p>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+        <p class="pA" style="padding: 50px;">My final main project was to create a web application using C# and .net to create a schedule for Resident Advisors, which would replace the current scheduling system
+        which was through Microsoft Excel. Going into this project I had very little experience using the .net platform so the learning curve proved rather steep to ensure that everything was set up in a clean
+        and orderly fashion. By using a local database, any user would be able to quickly generate a month by month schedule through an algorithim to ensure each RA had a fair and balanced amount of shifts, 
+        and easily edit any individual day. The main purpose was to not only replicate any and all functionality derrived from the Excel implementation and it's VBA scripts, but to make the process as quick
+        and efficent as possible. Through this web portal, an entire yearly schedule could be created in a matter of seconds as opposed to having to manually input names for each and every day.</p>
+        </div>
+        <div class="col-sm-2"></div>
+        <!--End of Job Description-->
+      </div>
+      <div class="row">
+        <div class="col-sm-12" style="padding: 35px"></div>
+        <div class="col-sm-12">
+          <h3>CONCLUSIONS</h3>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <p class="pA" style="padding: 50px;">My experience working in Student Housing Services was an incredible term from start to finish. Being able to work and contribute to the institution where
+          my education stems from has given me a much greater appreciation of campus and the university as a whole. I was able to further develop my skills as a developer and employ best practices on 
+          projects that matterted and will still be utilized after I've left. For me, my favourite part was the wonderful people I was surrounded with who harboured an incredible and productive working
+          enviornment, with several days and events taken to show employee appreciation and interaction between different departments throughout the university. Overall, I am grateful to have spent my
+          time within the University of Guelph Student Housing Services and it has left me eager to continute my education and move forward within my career.</p>
+        </div>
+        <div class="col-sm-2"></div>
+        <!--END of CONCLUSION-->
+      </div>
+      <div class ="row">
+        <div class="col-sm-12" style="padding: 12px"></div>
+        <div class="col-sm-12">
+          <h3>ACKNOWLEDGEMENTS</h3>
+        </div>
+        <div class="col-sm-12" style="padding: 20px"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <h5>My second work term has been an incredible experience from start to finish that has me more excited for my education than ever before.
+I would like to take the time here to acknowledge the individuals who helped make this term the best it could possibly be.</h5>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-12" style="padding: 20px"></div>
+        <div class="col-sm-4">
+          <p class="pA">I'd like to give special thanks to my co-op coordinators Katie Grierson, Kate McRoberts & Anne-Marie Zawadzki, who were always available for any support or inquiry I required and
+  for performing a check-in interview with me during the middle of my term to help guide me along the right path and ensure I was doing well.</p>
+        </div>
+        <div class="col-sm-4">
+          <p class="pA">Furthermore, I'd like to give thanks to my managers Rico Dean and Marc Zitman, who constantly provided me with guidance and support through my work and helped to ensure
+            a productive work enviornment.</p>
+        </div>
+        <div class="col-sm-4">
+          <p class="pA"> Lastly, I'd like to give special thanks to Kristin Lennan, for the support she provided me and her endless positivity and encouragement.</p>
+        </div>
+    </div>
+      <!--END of Container-->
+  </body>
+</html>
